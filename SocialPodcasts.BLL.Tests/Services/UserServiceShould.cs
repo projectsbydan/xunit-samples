@@ -8,17 +8,17 @@ using Xunit;
 
 namespace SocialPodcasts.BLL.Tests.Services
 {
-    public class UserServiceTests
+    public class UserServiceShould
     {
         private UserService _userService;
 
-        public UserServiceTests()
+        public UserServiceShould()
         {
             _userService = new UserService();
         }
 
         [Fact]
-        public void ShouldHaveFullName()
+        public void AddUserWithFullName()
         {
             // arrange
             var firstName = "Jimmy";
