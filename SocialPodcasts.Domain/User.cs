@@ -12,8 +12,8 @@ namespace SocialPodcasts.Domain
 
         public string FullName { get; set; }
 
-        public IEnumerable<Podcast> SubscribedPodcasts { get; set; }
-
-        public IEnumerable<Podcast> OwnPodcasts { get; set; }
+        // public IEnumerable<Podcast> SubscribedPodcasts { get; set; }
+        
+        // public IEnumerable<Podcast> OwnPodcasts { get; set; }
     }
 }
