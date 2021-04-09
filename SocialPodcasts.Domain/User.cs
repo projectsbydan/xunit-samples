@@ -10,7 +10,7 @@ namespace SocialPodcasts.Domain
 
         public string LastName { get; set; }
 
-        public string FullName => string.Join(" ", FirstName, LastName);
+        public string FullName { get; set; }
 
         public IEnumerable<Podcast> SubscribedPodcasts { get; set; }
 

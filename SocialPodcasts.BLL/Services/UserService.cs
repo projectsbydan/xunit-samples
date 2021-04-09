@@ -10,6 +10,7 @@ namespace SocialPodcasts.BLL.Services
             {
                 FirstName = firstName,
                 LastName = lastName,
+                FullName = string.Join(" ", firstName, lastName)
             };
 
 
@@ -25,7 +26,8 @@ namespace SocialPodcasts.BLL.Services
             {
                 Id = id,
                 FirstName = firstName,
-                LastName = lastName
+                LastName = lastName,
+                FullName = string.Join(" ", firstName, lastName)
             };
 
             return user;
